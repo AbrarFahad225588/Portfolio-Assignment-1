@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.social{
+    list-style: none;
+}
+
+.nav-item-li:hover{
+    color: #00ff00;
+    cursor: pointer;
+}
+.custom{
+    background-color: gray;
+    border-radius:5px ;
+    
+}
+.custom-box-container:hover{
+    border: 2px solid #00ff00;;
+}
+
+
+.skills-box{
+    list-style: none;
+}
+
+input::placeholder {
+    color: rgb(250, 249, 249); /* Change this to the desired color */
+    opacity: .2; /* Ensure the color is fully visible */
+}
